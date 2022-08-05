@@ -771,6 +771,7 @@ hr {
     left: 1rem;
     width: 16rem;
     top: 4vh;
+    scale: 0.6;
     background-size: cover;
   }
   .nav-item,
