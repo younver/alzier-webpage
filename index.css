@@ -768,7 +768,7 @@ hr {
 @media screen and (max-width: 1000px) {
   /* CM */
   #logo {
-    left: 1rem;
+    left: -6vw;
     top: 4vh;
     transform: scale(0.6);
     background-size: cover;
