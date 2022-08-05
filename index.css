@@ -13,8 +13,8 @@ body {
 
 .line-1{
   position: absolute;
-  width: 200px;
-  border-bottom: 3px solid black;
+  border-bottom: 1px solid black;
+  width: 27vw;
 }
 
 @font-face{
