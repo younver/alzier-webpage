@@ -21,5 +21,5 @@ const mainFullpage = new fullpage("#fullpage", {
   ],
   navigation: true,
   controlArrowColor: "#000000",
-  responsiveWidth: 1000,
+  // responsiveWidth: 1000,
 });
