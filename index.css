@@ -769,8 +769,8 @@ hr {
   /* CM */
   #logo {
     left: 1rem;
-    scale: 0.5;
     top: 4vh;
+    transform: scale(0.5);
     background-size: cover;
   }
   .nav-item,
