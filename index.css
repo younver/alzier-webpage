@@ -17,6 +17,18 @@ body {
   width: 27vw;
 }
 
+.zortButton{
+  position: absolute;
+  bottom: 11px;
+  left: 28vw;
+  width: 5vw;
+  height: 5vw;
+  background:url(./images/OK\ BUTON.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 @font-face{
   src: url(fonts/PPFraktionSans-Bold.otf);
   font-family: ppf;
