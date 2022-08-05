@@ -770,7 +770,7 @@ hr {
   #logo {
     left: 1rem;
     top: 4vh;
-    transform: scale(0.5);
+    transform: scale(0.6);
     background-size: cover;
   }
   .nav-item,
