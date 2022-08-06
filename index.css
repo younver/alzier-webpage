@@ -890,10 +890,8 @@ hr {
   }
 
   .page1-text {
-    /* margin: auto; */
-    margin-left: 20px;
-    margin-top: 18vh;
-    /* padding: 0; */
+    margin-left: 8vw;
+    margin-top: -10vw;
     width: 75%;
     min-height: 120vh;
     color: #ffffff;
@@ -901,20 +899,38 @@ hr {
   }
 
   .page1-text h2 {
-    /* padding-top: 30vh; */
-    font-size: 30px;
+    font-size: 6.5vw;
     text-shadow: 2px 2px 2px #e68370;
     text-shadow: 2px 2px 2px #88e1d7;
 
   }
 
   .page1-text p {
-    /* padding-top: 30vh; */
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 4vw;
     line-height: 25px;
     text-shadow: 2px 2px 2px #88e1d7;
     text-shadow: 2px 2px 2px #e68370;
 
+  }
+
+  .line-1{
+    position: relative;
+    border-bottom: 1px solid black;
+    width: 42vw;
+    bottom: -3vw;
+  }
+
+  .zortButton{
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+    bottom: 2vw;
+    left: 44vw;
+    background:url(./images/OK\ BUTON.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 
   .page2-wrapper {
