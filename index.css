@@ -12,14 +12,14 @@ body {
 }
 
 .line-1{
-  position: absolute;
+  position: relative;
   border-bottom: 1px solid black;
   width: 27vw;
 }
 
 .zortButton{
   position: absolute;
-  bottom: 11px;
+  top: -5vh;
   left: 28vw;
   width: 5vw;
   height: 5vw;
