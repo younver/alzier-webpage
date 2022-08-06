@@ -232,7 +232,7 @@ input[type="checkbox"],
 }
 
 .page1-text h2 {
-  font-size: 50px;
+  font-size: 6vh;
   font-weight: 700;
   line-height: 118%;
   margin-bottom: 2rem;
@@ -240,7 +240,7 @@ input[type="checkbox"],
 }
 
 .page1-text p {
-  font-size: 20px;
+  font-size: 2.5vh;
   font-weight: 300;
   line-height: 2rem;
   /* font-size: 1.2rem; */
