@@ -7,7 +7,6 @@ body {
   font-weight: 200;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
-  /* text-shadow: 2px 5px 10px #d6695348; */
   scroll-behavior: smooth;
 }
 
@@ -63,7 +62,6 @@ input[type="checkbox"],
 }
 
 .nav {
-  /* background-color: rgb(230, 186, 184); */
   background-color: rgb(0, 0, 0);
   position: fixed;
   top: 0;
@@ -81,7 +79,6 @@ input[type="checkbox"],
   margin-right: 5%;
   margin-top: 2.5rem;
   height: 8vh;
-  /* vertical-align: middle; */
   font-family: ppf;
   font-weight: 300;
   font-size: 20px;
@@ -97,7 +94,6 @@ input[type="checkbox"],
   color: rgb(255, 255, 255);
 }
 
-/* CM */
 #logo {
   position: absolute;
   left: 4rem;
@@ -106,21 +102,6 @@ input[type="checkbox"],
   width: 260px;
   background: center / cover no-repeat url("images/Logo_beyaz.png");
 }
-
-/* #video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-} */
 
 .backdrop {
   position: absolute;
@@ -158,37 +139,16 @@ input[type="checkbox"],
   justify-content: space-evenly;
   height: 90vh;
   width: 90%;
-  /* padding-top: 100px; */
-  margin-bottom: 10vh;   /*  offset vertically muahhhhh  */
+  margin-bottom: 10vh;   /*  offset vertically muahhhhh  */ /* <3 */
   background-color: #f5f5f5;
-
-  
-/* 
-  display: flex;
-  justify-content: space-evenly;
-  height: 70vh;
-  width: 100%;
-  margin-top: 10vh; */
 }
 
 .page1-image {
-  /* margin-right: 5%;
-  height: 50%;
-  width: 40%;
-  background: center / cover no-repeat url("images/page11.png");
-  margin-top: 35vh; */
-  /* padding: 2rem; */
-  /* margin: 2% 0 0 2%; */
-  /* margin-left: 10vw; */
-
   height: 90%;
   width: 90%;
   background: center / cover no-repeat url("images/MaınImg_zeminsiz.png");
-  /* padding: 2rem; */
-  /* margin: 2% 0 0 2%; */
   margin-top: 9vh;
   margin-left: 30vw;
-
 }
 
 .page1-text {
@@ -213,7 +173,6 @@ input[type="checkbox"],
   font-size: 1.2vw;
   font-weight: 300;
   line-height: 2rem;
-  /* font-size: 1.2rem; */
 }
 
 hr {
@@ -236,74 +195,44 @@ hr {
 /* -------------------------------- */
 /* Section 2 */
 /* -------------------------------- */
-
-
 .page2-flex {
-  /* margin: auto; */
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   height: 90vh;
-  width: 90%;
-  /* padding-top: 100px; */
-  margin-bottom: 10vh;   /*  offset vertically muahhhhh  */
-  margin-left: 50vh;
-  
+  width: 90vw;
+  margin-left: 10vw;
 }
 
-
-
 .page2-image {
-  /* margin-right: 5%;
-  height: 50%;
-  width: 40%;
-  background: center / cover no-repeat url("images/page11.png");
-  margin-top: 35vh; */
-  /* padding: 2rem; */
-  /* margin: 2% 0 0 2%; */
-  /* margin-left: 10vw; */
-
-  height: 80%;
-  width: 60%;
-  background: url("images/page11.png");
-  /* padding: 2rem; */
-  margin: 2% 0 0 2%;
-  margin-top: 28vh;
-
+  background: center / cover no-repeat url("images/INS.png");
+  height: 100%;
+  width: 100%;
+  margin-top: 7vh;
+  margin-left: 20vw;
 }
 
 .page2-text {
-
-  height: 70%;
-  width: 50%;
-  padding-right: 70rem;
+  color: #ffffff;
+  height: 70vh;
+  width: 50vw;
   padding-top: 60vh;
   position: absolute;
-  margin: auto 0;
-  color: #ffffff;
 }
 
 
 .page2-text h2 {
-  font-size: 32px;
+  font-size: 2vw;
   font-weight: 300;
-  line-height: 38.91px;
+  line-height: 2vw;
   margin-bottom: 2rem;
-  font-weight: 300;
 }
 
 .page2-text p {
-  font-size: 24px;
+  font-size: 2vw;
   font-weight: 300;
   line-height: 1rem;
   font-size: 1.2rem;
 }
-
-/* hr {
-  position: relative;
-  border: 3px solid #d66853;
-  right: 0;
-  box-shadow: 2px 5px 10px rgba(214, 105, 83, 0.282);
-} */
 
 .page2-horizontal {
   width: 10rem;
@@ -420,10 +349,10 @@ hr {
 
 .page3-text {
 
-  height: 70%;
-  width: 50%;
-  padding-right: 70rem;
-  padding-top: 60vh;
+  height: 80%;
+  width: 90%;
+  padding-right: 35rem;
+  padding-top: 70vh;
   position: absolute;
   margin: auto 0;
   color: #000000;
@@ -439,7 +368,7 @@ hr {
 }
 
 .page3-text p {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1rem;
   font-size: 1.2rem;
@@ -516,8 +445,132 @@ hr {
 #section4 {
   /* background: center / cover no-repeat url(images/alzheimer3.jpg); */
 }
+.page4-flex {
+  /* margin: auto; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 90vh;
+  width: 90%;
+  /* padding-top: 100px; */
+  margin-bottom: 10vh;   /*  offset vertically muahhhhh  */
+  margin-left: 50vh;
+  /* padding-top: 100px; */
+  /* margin-bottom: 0vh;   /*  offset vertically muahhhhh  */
+  /* margin-left: 50vh;  */
+}
 
-.page4-background {
+
+
+.page4-image {
+  /* margin-right: 5%;
+  height: 50%;
+  width: 40%; */
+  background: url("images/dünya_kırpık.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 35vh;  */
+  /* padding: 2rem; */
+  /* margin: 2% 0 0 2%; */
+  /* margin-left: 10vw; */
+/* 
+  height: 80%;
+  width: 80%; */
+  /* background: url("images/page11.png"); */
+  /* background: url("images/DUNYA_ZEMINSIZ.png");
+  background-repeat: no-repeat; */
+  /* background-position: center  center; */
+  /* padding: 2rem; */
+  /* margin: 2% 0 0 2%; */
+  /* margin-top: 30vh;
+  margin-right: 15%; */
+  /* background-position: center; */
+  position: absolute;
+  padding-top: 400px;
+  padding-right: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  /* margin-top: 50px; */
+  height: 110%;
+  width: 80%;
+  /* background: url("images/dünya_kırpık.png"); */
+
+
+}
+.page4-text {
+  /* color: #000000;
+  height: 70%;
+  width: 60%;
+  padding: 2rem;
+  position: relative;
+  margin: auto 0;
+ */
+  /* position: relative;
+  width: 60%;
+  height: 70%;
+  padding-left: 6rem ;
+  padding-top: 20% ; */
+  /* left: 132px;
+  top: 474px; */
+  /* margin: auto 0;
+  color: #000000; */
+  /* font-family: ppf; */
+
+/* 
+
+  position: relative;
+  width: 60%;
+  height: 70%;
+  padding-left: 6rem ;
+  padding-top: 20% ;
+  margin: auto 0;
+  color: #000000; */
+
+
+  height: 70%;
+  width: 40%;
+  padding-right: 78vw;
+  padding-top: 55vh;
+  position: absolute;
+  /* margin: auto 0; */
+  color: #000000;
+  z-index: 3;
+}
+
+.page4-text h2 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 38.91px;
+  margin-bottom: 2rem;
+  /* font-weight: 700; */
+}
+
+.page4-text p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 2rem;
+  /* font-size: 1.2rem; */
+}
+
+hr {
+  position: relative;
+  border: 3px solid #d66853;
+  right: 0;
+  box-shadow: 2px 5px 10px rgba(214, 105, 83, 0.282);
+}
+
+.page4-horizontal {
+  width: 10rem;
+  right: 5%;
+}
+
+.page4-vertical {
+  height: 10rem;
+  bottom: 50%;
+}
+
+
+/* .page4-background {
   display: none;
 }
 
@@ -577,15 +630,15 @@ hr {
   padding: 1rem;
   padding-left: 2rem;
   text-shadow: none;
-  border-radius: 50px;
-}
+  border-radius: 50px; 
+} */
 
 /* .page4-card .page4-image {
   width: 50%;
   margin: auto;
 } */
 
-.page4-image img {
+/* .page4-image img {
   width: 25%;
   height: auto;
 }
@@ -598,7 +651,7 @@ hr {
   display: inline-block;
   padding-bottom: 3px;
   border-bottom: 2px solid #ffffff;
-}
+} */
 
 /* -------------------------------- */
 /* Section 5 */
@@ -896,13 +949,27 @@ hr {
     background-position: center center;
   }
 
-  .page2-wrapper {
-    width: 75%;
-    margin: auto;
+  .page2-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   .page2-text {
-    width: 100%;
+    position: absolute;
+    /* width: 100%; */
+    margin-left: 80%;
+    margin-top: -30%;
+    /* padding: 0; */
+    width: 75%;
+    min-height: 120vh;
+    color: #000000;
+  }
+
+  .page2-text h2 {
+    font-size: 30px;
+    line-height: 110%;
   }
 
   #section4 {
