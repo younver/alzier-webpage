@@ -13,7 +13,7 @@ body {
 
 .line-1{
   position: relative;
-  border-bottom: 1px solid black;
+  border-bottom: 0.15vw solid black;
   width: 27vw;
 }
 
@@ -69,9 +69,8 @@ input[type="checkbox"],
   top: 0;
   left: 10vw;
   z-index: 3;
-  /* height: 13vh; */
-  width: 80vw;
-  
+  height: 15vh;
+  width: 80vw; 
 }
 
 .nav-items {
@@ -900,23 +899,18 @@ hr {
 
   .page1-text h2 {
     font-size: 6.5vw;
-    text-shadow: 2px 2px 2px #e68370;
-    text-shadow: 2px 2px 2px #88e1d7;
-
+    color: #000000;
   }
 
   .page1-text p {
-    /* font-size: 18px; */
     font-size: 4vw;
     line-height: 25px;
-    text-shadow: 2px 2px 2px #88e1d7;
-    text-shadow: 2px 2px 2px #e68370;
-
+    color: #000000;
   }
 
   .line-1{
     position: relative;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     width: 42vw;
     bottom: -3vw;
   }
