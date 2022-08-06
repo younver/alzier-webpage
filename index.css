@@ -19,7 +19,7 @@ body {
 
 .zortButton{
   position: absolute;
-  bottom: -2.5rem;
+  bottom: -10vh;
   left: 28vw;
   width: 5vw;
   height: 5vw;
