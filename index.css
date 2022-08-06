@@ -192,39 +192,10 @@ input[type="checkbox"],
 }
 
 .page1-text {
-  /* color: #000000;
-  height: 70%;
-  width: 60%;
-  padding: 2rem;
-  position: relative;
-  margin: auto 0;
- */
-  /* position: relative;
-  width: 60%;
-  height: 70%;
-  padding-left: 6rem ;
-  padding-top: 20% ; */
-  /* left: 132px;
-  top: 474px; */
-  /* margin: auto 0;
-  color: #000000; */
-  /* font-family: ppf; */
-
-/* 
-
-  position: relative;
-  width: 60%;
-  height: 70%;
-  padding-left: 6rem ;
-  padding-top: 20% ;
-  margin: auto 0;
-  color: #000000; */
-
-
   height: 70%;
   width: 40%;
   padding-right: 38vw;
-  padding-top: 20vh;
+  padding-top: 35vh;
   position: absolute;
   margin: auto 0;
   color: #000000;
@@ -889,8 +860,8 @@ hr {
   }
 
   .page1-text {
+    padding-top: 20vh;
     margin-left: 12vw;
-    /* margin-top: 20vh; */
     width: 75%;
     min-height: 120vh;
   }
