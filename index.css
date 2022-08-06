@@ -19,10 +19,10 @@ body {
 
 .zortButton{
   position: absolute;
-  bottom: -10vh;
-  left: 28vw;
   width: 5vw;
   height: 5vw;
+  bottom: -2.5vw;
+  left: 28vw;
   background:url(./images/OK\ BUTON.png);
   background-size: cover;
   background-repeat: no-repeat;
