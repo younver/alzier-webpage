@@ -890,11 +890,9 @@ hr {
 
   .page1-text {
     margin-left: 12vw;
-    margin-top: -10vw;
+    margin-top: -20vh;
     width: 75%;
     min-height: 120vh;
-    color: #ffffff;
-    /* text-shadow: 2px 2px 2px #e68370; */
   }
 
   .page1-text h2 {
@@ -904,7 +902,7 @@ hr {
 
   .page1-text p {
     font-size: 4vw;
-    line-height: 25px;
+    line-height: 4vh;
     color: #000000;
   }
 
