@@ -890,7 +890,7 @@ hr {
 
   .page1-text {
     margin-left: 12vw;
-    margin-top: -20vh;
+    /* margin-top: 20vh; */
     width: 75%;
     min-height: 120vh;
   }
