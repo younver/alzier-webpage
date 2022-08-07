@@ -903,7 +903,7 @@ hr {
   }
 
   .page2-text {
-    padding-bottom: 30vw;
+    padding-top: 50vh;
     position: absolute;
     width: 75%;
     min-height: 120vh;
@@ -916,7 +916,7 @@ hr {
   }
 
   .page2-text p {
-    font-size: 1.2rem;
+    font-size: 2.5vw;
     line-height: 110%;
   }
 
