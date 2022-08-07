@@ -157,15 +157,16 @@ input[type="checkbox"],
   position: relative;
   border-bottom: 1px solid black;
   width: 27vw;
+  padding-top: 2vw;
 }
 
 .page1-ok-button{
   position: relative;
-  width: 5vw;
-  height: 5vw;
-  bottom: 2.5vw;
+  width: 6vw;
+  height: 6vw;
+  bottom: 3vw;
   left: 28vw;
-  background:url(./images/OK\ BUTON.png);
+  background:url(./images/OK_ANASAYFA.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -861,25 +862,24 @@ hr {
   }
 
   .page1-text h2 {
-    font-size: 6.5vw;
+    font-size: 6.5vmin;
     color: #000000;
   }
 
   .page1-text p {
-    font-size: 4vw;
+    font-size: 4vmin;
     line-height: 4vh;
     color: #000000;
   }
 
   .page1-line{
     width: 42vw;
-    bottom: -3vw;
+    bottom: -5vmin;
   }
 
   .page1-ok-button{
-    width: 10vw;
-    height: 10vw;
-    bottom: 2vw;
+    width: 15vmin;
+    height: 15vmin;
     left: 44vw;
   }
 
