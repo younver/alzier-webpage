@@ -10,24 +10,6 @@ body {
   scroll-behavior: smooth;
 }
 
-.line-1{
-  position: relative;
-  border-bottom: 0.15vw solid black;
-  width: 27vw;
-}
-
-.zortButton{
-  position: relative;
-  width: 5vw;
-  height: 5vw;
-  bottom: 2.5vw;
-  left: 28vw;
-  background:url(./images/OK\ BUTON.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 @font-face{
   src: url(fonts/PPFraktionSans-Bold.otf);
   font-family: ppf;
@@ -175,6 +157,24 @@ input[type="checkbox"],
   line-height: 2rem;
 }
 
+.page1-line{
+  position: relative;
+  border-bottom: 1px solid black;
+  width: 27vw;
+}
+
+.page1-ok-button{
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  bottom: 2.5vw;
+  left: 28vw;
+  background:url(./images/OK\ BUTON.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 hr {
   position: relative;
   border: 3px solid #d66853;
@@ -231,6 +231,24 @@ hr {
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1rem;
+}
+
+.page2-line{
+  position: relative;
+  border-bottom: 1px solid white;
+  width: 27vw;
+}
+
+.page2-ok-button{
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  bottom: 2.5vw;
+  left: 28vw;
+  background:url(./images/OK\ BUTON.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .page2-horizontal {
@@ -862,23 +880,16 @@ hr {
     color: #000000;
   }
 
-  .line-1{
-    position: relative;
-    border-bottom: 2px solid black;
+  .page1-line{
     width: 42vw;
     bottom: -3vw;
   }
 
-  .zortButton{
-    position: relative;
+  .page1-ok-button{
     width: 10vw;
     height: 10vw;
     bottom: 2vw;
     left: 44vw;
-    background:url(./images/OK\ BUTON.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
   }
 
   /* -------------------------------- */
@@ -908,6 +919,19 @@ hr {
     font-size: 1.2rem;
     line-height: 110%;
   }
+
+  .page2-line{
+    width: 42vw;
+    bottom: -3vw;
+  }
+
+  .page2-ok-button{
+    width: 10vw;
+    height: 10vw;
+    bottom: 2vw;
+    left: 44vw;
+  }
+  
 
   #section4 {
     margin: 2rem 0;
