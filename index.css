@@ -243,73 +243,6 @@ hr {
   bottom: 50%;
 }
 
-/* .page2-wrapper {
-  width: 75%;
-  margin: auto;
-}
-
-.page2-text {
-  width: 75%;
-}
-
-.page2-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  height: 75%;
-  width: 75%;
-  margin: auto;
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-} */
-/* 
-.drop-shadow {
-  box-shadow: 5px 5px 10px rgba(214, 105, 83, 0.282);
-} */
-/* 
-.page2-gridchild1 {
-  grid-area: 1 / 1 / 2 / 2;
-  background: center / contain no-repeat url("images/grid5.png");
-  border-radius: 20px;
-  height: 30vh;
-  width: 30vw;
-}
-.page2-gridchild2 {
-  grid-area: 1 / 2 / 2 / 4;
-  height: 30vh;
-  width: 40vw;
-}
-
-.page2-gridchild2 p {
-  font-size: 1.5rem;
-  margin-top: 5%;
-}
-
-.page2-gridchild3 {
-  grid-area: 2 / 1 / 4 / 2;
-  margin: auto;
-  height: 40vh;
-  width: 30vw;
-}
-
-.page2-gridchild3 p {
-  font-size: 3rem;
-  width: 50%;
-  margin: auto;
-  margin-left: 10%;
-  text-shadow: none;
-}
-
-.page2-gridchild4 {
-  grid-area: 2 / 2 / 4 / 4;
-  background: center / contain no-repeat url("images/grid6.png");
-  border-radius: 20px;
-  height: 40vh;
-  width: 40vw;
-} */
-
 /* -------------------------------- */
 /* Section 3 */
 /* -------------------------------- */
@@ -948,26 +881,31 @@ hr {
     background-position: center center;
   }
 
+  /* -------------------------------- */
+  /* Section 2 */
+  /* -------------------------------- */
+
   .page2-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 180%;
+    margin-top: 7vh;
+    margin-left: -10vw;
   }
 
   .page2-text {
+    padding-bottom: 30vw;
     position: absolute;
-    /* width: 100%; */
-    margin-left: 80%;
-    margin-top: -30%;
-    /* padding: 0; */
     width: 75%;
     min-height: 120vh;
-    color: #000000;
+    color: #ffffff;
   }
 
   .page2-text h2 {
-    font-size: 30px;
+    font-size: 4vw;
+    line-height: 110%;
+  }
+
+  .page2-text p {
+    font-size: 1.2rem;
     line-height: 110%;
   }
 
