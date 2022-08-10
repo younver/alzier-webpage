@@ -13,7 +13,7 @@ const mainFullpage = new fullpage("#fullpage", {
     "#FFFFFF",
     "#FF976A",
     "#FFFFFF",
-    "#FFFFFF",
+    "#F2F2F2",
     "#FFFFFF",
     "#000000",
     "#000000",
